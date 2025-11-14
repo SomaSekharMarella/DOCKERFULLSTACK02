@@ -8,6 +8,8 @@ public class JenkinsBackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsBackendApplication.class, args);
+
+		System.out.println("Jenkins Backend Application Started Successfully");
 	}
 
 }
